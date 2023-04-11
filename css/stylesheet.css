@@ -1,0 +1,66 @@
+/* CSS Document */
+
+/* other background colors
+.mLightBlue {
+    color: #19A7CE;
+}
+.darkBlue {
+    color: #146C94;
+} */
+/************************TAG SELECTORS**********************/
+body {
+    background-color: rgb(233, 233, 233);
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: rgb(118, 187, 211);
+    border-width: 10px;
+    width: 20%;
+}
+
+h1, h2, h3 {
+    color: rgb(35, 35, 163);
+}
+
+
+a {
+    color: darkslateblue;
+}
+
+a:hover {
+    color: purple;
+}
+
+/************************CLASS SELECTORS**********************/
+
+.circular {
+    border-radius: 100%;
+}
+
+.introTable {
+    border: none;
+    padding: 5;
+    row-gap: 5;
+    border-collapse: collapse;
+}
+.introTable td {
+    padding: 10px;
+}
+.skillsTable {
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+    padding: 5px;
+}
+.skillsTable td {
+    border: 1px dashed black;
+    padding: 5px;
+}
+
+/************************ID SELECTORS**********************/
+
+#heading {
+    background: red;
+}
