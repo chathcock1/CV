@@ -47,6 +47,10 @@ p {
     border-radius: 100%;
 }
 
+.roundedBorder {
+    border-radius: 10%;
+}
+
 .introTable {
     border: none;
     padding: 5;
