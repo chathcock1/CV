@@ -1,15 +1,22 @@
 /* CSS Document */
 
-/* other background colors
-.mLightBlue {
-    color: #19A7CE;
-}
-.darkBlue {
-    color: #146C94;
-} */
 /************************TAG SELECTORS**********************/
+a {
+    color: darkslateblue;
+}
+
+a:hover {
+    color: purple;
+}
+
 body {
+    margin: 0;
     background-color: rgb(233, 233, 233);
+}
+
+div {
+    display: inline-block;
+    position: relative;
 }
 
 hr {
@@ -20,17 +27,18 @@ hr {
     width: 20%;
 }
 
-h1, h2, h3 {
+h1, h2 {
     color: rgb(35, 35, 163);
+    font-family: 'Merriweather', serif;
 }
 
-
-a {
-    color: darkslateblue;
+h3 {
+    color: rgb(35, 35, 163);
+    font-family: 'Oxygen', sans-serif;
 }
 
-a:hover {
-    color: purple;
+p {
+    font-family: 'Oxygen', sans-serif;
 }
 
 /************************CLASS SELECTORS**********************/
@@ -45,15 +53,18 @@ a:hover {
     row-gap: 5;
     border-collapse: collapse;
 }
+
 .introTable td {
     padding: 10px;
 }
+
 .skillsTable {
     border: 1px solid black;
     text-align: center;
     border-collapse: collapse;
     padding: 5px;
 }
+
 .skillsTable td {
     border: 1px dashed black;
     padding: 5px;
